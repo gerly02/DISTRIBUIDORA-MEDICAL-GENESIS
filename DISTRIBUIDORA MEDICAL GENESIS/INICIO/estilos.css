@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mensaje {
+    background-color: black;
+    height: 25px;    
+}
+.imagenlogo { 
+    height: 80px;
+    width: 80px;
+    margin-top: 17px;
+    margin-right: 0px;
+    margin-left: 35px;
+}
+.encabezado {
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    margin-top: 1px;
+
+}
+.titulo  {
+    margin-left: 15px;
+    margin-top: 42px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.titulo2  {
+    margin-left: -395px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+  }
+.otros {
+    margin-left: 1100px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+#menuprin {
+    margin: auto;
+    width:1339px;
+    height: 500px;
+}
+ul, ol {
+    list-style: none;
+}
+.menu li a {
+    background-color: #E9D8A4;
+    color: black;
+    text-decoration: none;
+    padding: 16px 47px;
+    display: block;
+}
+.menu li a:hover {
+    background-color: white;
+}
+.menu > li {
+    float:left;
+}
+.menu li ul {
+    display: none;
+    position:absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li ul li {
+    position: relative;
+}
+.menu li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+.bienvenido {
+    background-color: black;
+    color: white;
+    margin-top: -399px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 10px;
+    text-align: center;
+    padding: 80px 0px;
+        
+}
+
+#imagenes {
+    background-color: black;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 50px 185px;
+}
+.mujermedidas img {
+
+    height: 300px;
+    width: 500px;
+
+}
+#sobre {
+    background-color: black;
+    color: white;
+    margin-top: -95px;
+    text-align: center;
+    padding: 20px 30px;
+    
+}
+
